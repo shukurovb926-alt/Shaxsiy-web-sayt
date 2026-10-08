@@ -1,0 +1,73 @@
+body {
+    background-image: url("about.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:white;
+    padding: 0;
+    margin:0;
+    background-attachment: fixed;
+}
+
+.ayir {
+    color:black;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+ 
+}
+.about {
+    background-color: aliceblue;
+    margin: 100px 267px;
+    padding: 257px 10px;
+     border-radius: 40px;
+    background: rgba(255,255,255,0.5);
+    backdrop-filter:blur(1px);
+   
+}
+
+.about p {
+    color:black;
+    width: 100%;
+ font-family: "Poppins";
+    
+    
+   
+}
+.ayir p {
+    margin-top:-237px;
+    text-align: justify;
+    
+    font-size: 24px;
+    font-family:sans-serif;
+    text-decoration-line: blink;
+}
+#mainDiv {
+    width: 100%;
+    padding: 20px 0px;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    position: fixed;
+    font-family:"Poppins"
+}
+#mainDiv a.active {
+    text-decoration: none;
+    color:yellow;
+     margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+}
+#mainDiv a {
+       text-decoration: none;
+ color:white;
+     margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+

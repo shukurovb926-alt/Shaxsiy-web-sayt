@@ -1,0 +1,63 @@
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    margin:0;
+    background-image: url("contact.jpg");
+    background-attachment: fixed;
+}
+#mainDiv {
+    width: 100%;
+    padding:20px 0;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    font-family: "Poppins";
+    
+}
+#mainDiv a {
+    text-decoration: none;
+    color:white;
+    margin-right: 50px;
+    display: inline-block;
+ 
+}
+#mainDiv a.active {
+    color: yellow;
+}
+/*.forma input {
+    margin: 100px;
+    color:black; 
+    background-color:white; 
+    padding:50px 100px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 40px;
+    border: 3px solid blue;
+   
+    border: 3px solid blue;
+}*/
+.lorem {
+    margin:120px 200px;
+    padding: 300px 150px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 70px;
+    border: 3px solid blue;
+    font-size: 30px;
+    font-family: "Poppins";
+}
+.lorem a.boxs {
+    text-decoration: none;
+    
+}
+.lorem li {
+    list-style: none;
+    text-align: center;
+    
+}
+

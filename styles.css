@@ -1,0 +1,86 @@
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    margin:0;
+    background-image: url("rasm.jpg");
+    background-attachment: fixed;
+}
+#mainDiv {
+    width: 100%;
+    padding:20px 0;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    font-family: "Poppins"
+}
+#mainDiv a {
+    text-decoration: none;
+    color:white;
+     margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+}
+#mainDiv a.active {
+    color: yellow;
+}
+.ism {
+    color:white;
+    padding:15px 0;
+    background-color: orange;
+    margin: 0 auto;
+    width: 100%;
+  
+  
+}
+   
+    
+.container {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Poppins";
+    background-color: orange;
+    margin: 0 auto;
+   
+    
+}
+h3 {
+    margin-left: 509px;
+}
+.lorem {
+  width: 90%;
+  max-width: 900px;
+  margin: 100px auto 40px;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  border: 3px solid blue;
+  box-sizing: border-box;
+}
+
+#yangiliklar {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#yangiliklar a {
+  display: block;
+  margin: 12px 0;
+  padding: 15px 20px;
+  background: rgba(10, 30, 90, 0.7);
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+    text-align: center;
+}
+
+#yangiliklar a:hover {
+  background: rgba(10, 30, 90, 0.9);
+}

@@ -1,0 +1,48 @@
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0;
+    margin:0;
+    background-image: url("xizmat.jpg");
+    background-attachment: fixed;
+}
+#mainDiv {
+    width: 100%;
+    padding:20px 0;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    font-family: "Poppins"
+    
+}
+#mainDiv a {
+    text-decoration: none;
+    color:white;
+    margin-right: 50px;
+    display: inline-block;
+ 
+}
+#mainDiv a.active {
+    color: yellow;
+}
+.lorem {
+    margin:120px 200px;
+    padding: 300px 150px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 40px;
+    border: 3px solid blue;
+}
+.lorem p {
+    color:black;
+    font-size:30px;
+    margin-top:-201px;
+    font-family: "Poppins";
+    text-align: justify;
+    
+}
